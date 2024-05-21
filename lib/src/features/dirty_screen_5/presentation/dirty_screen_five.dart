@@ -13,10 +13,10 @@ class DirtyScreenFive extends StatelessWidget {
         scrollDirection: Axis.vertical,
         child: Column(
           children: [
-            FavoriteNumber(number: '1'),
-            FavoriteNumber(number: '2'),
-            FavoriteNumber(number: '3'),
-            FavoriteNumber(number: '4'),
+            FavoriteNumber(number: '1', color: Colors.red),
+            FavoriteNumber(number: '2', color: Colors.pink),
+            FavoriteNumber(number: '3', color: Colors.purple),
+            FavoriteNumber(number: '4', color: Colors.deepPurple),
           ],
         ),
       ),
