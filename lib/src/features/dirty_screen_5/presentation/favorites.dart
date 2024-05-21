@@ -1,9 +1,10 @@
 import 'package:flutter/material.dart';
 
 class FavoriteNumber extends StatelessWidget {
-  const FavoriteNumber({super.key, required this.number});
+  const FavoriteNumber({super.key, required this.number, required this.color});
 
   final String number;
+  final Color color;
 
   @override
   Widget build(BuildContext context) {
